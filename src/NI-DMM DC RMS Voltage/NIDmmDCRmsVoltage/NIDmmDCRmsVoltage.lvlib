@@ -10,12 +10,19 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Average DC Voltage.ctl" Type="VI" URL="../Typedefs/Average DC Voltage.ctl"/>
+		<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Typedefs/Measurement Configuration.ctl"/>
+		<Item Name="Measurement Result.ctl" Type="VI" URL="../Typedefs/Measurement Result.ctl"/>
+		<Item Name="Measurement Type.ctl" Type="VI" URL="../Typedefs/Measurement Type.ctl"/>
+		<Item Name="Resolution Digits.ctl" Type="VI" URL="../Typedefs/Resolution Digits.ctl"/>
+		<Item Name="RMS Voltage.ctl" Type="VI" URL="../Typedefs/RMS Voltage.ctl"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
-	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
-	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
