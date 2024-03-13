@@ -10,7 +10,9 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
-	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Analyze DC Voltage Measurements.vi" Type="VI" URL="../SubVIs/Analyze DC Voltage Measurements.vi"/>
+	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Average DC Voltage.ctl" Type="VI" URL="../Typedefs/Average DC Voltage.ctl"/>
 		<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Typedefs/Measurement Configuration.ctl"/>
