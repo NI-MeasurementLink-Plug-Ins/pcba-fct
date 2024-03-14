@@ -6,26 +6,22 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Advanced" Type="Folder">
 		<Item Name="Build Assets" Type="Folder">
-			<Item Name="Post-Build Action.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Advanced/Build Assets/Post-Build Action.vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../Advanced/Build Assets/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Advanced/Measurement Plugin.lvclass"/>
+		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="DC Voltage RMS Measurements.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/SubVIs/DC Voltage RMS Measurements.vi"/>
+		<Item Name="DC Voltage RMS Measurements.vi" Type="VI" URL="../SubVIs/DC Voltage RMS Measurements.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Average DC Voltage.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Average DC Voltage.ctl"/>
-		<Item Name="Function.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Function.ctl"/>
-		<Item Name="Measurement Configuration.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Measurement Configuration.ctl"/>
-		<Item Name="Measurement Result.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Measurement Result.ctl"/>
-		<Item Name="Measurement Type.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Measurement Type.ctl"/>
-		<Item Name="Resolution Digits.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/Resolution Digits.ctl"/>
-		<Item Name="RMS Voltage.ctl" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Typedefs/RMS Voltage.ctl"/>
+		<Item Name="Function.ctl" Type="VI" URL="../Typedefs/Function.ctl"/>
 	</Item>
-	<Item Name="Get Measurement Details.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Get Measurement Details.vi"/>
-	<Item Name="Get Type Specializations.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Get Type Specializations.vi"/>
-	<Item Name="Get UI Details.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Get UI Details.vi"/>
-	<Item Name="Measurement Logic.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Measurement Logic.vi"/>
-	<Item Name="Measurement UI.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Measurement UI.vi"/>
-	<Item Name="Run Service.vi" Type="VI" URL="/C/Users/Carol Su/Dev/pcba-fct/src/NI-DMM DC RMS Voltage/NIDmmDCRmsVoltage/Run Service.vi"/>
+	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
+	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
+	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
+	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
+	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
+	<Item Name="Measurement Result.ctl" Type="VI" URL="../Measurement Result.ctl"/>
+	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
+	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
