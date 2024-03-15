@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3D0EC140DA75D0B6CBB5A95DD0CF0075A8F5CF070C283A95ED2CF4A9518A23511FFC1E70DF5811EEE3D2A423DBD3DC4FB9BB5D79025D4355FFB54A11B6B64A0E" Timestamp="1DA75FDFECAFFB7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B0252C5EAEC1F85403717ECE6CD1021665D139C42CF2779AD8720210401A7D088A2B2E98680B6CF6B054E39AD617467A36983703A3D19DBC2DE2AD380528EA50" Timestamp="1DA76D84C400DCA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49428" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="15343bccba924c89bc64091443f23688" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="6a8d6da6a3c44466bba02b7058f9bf69" Name="NIDmmDCRmsVoltage.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="cbd3ffee9f3c4a93816ec1aecfe9e47a" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{fdab58e9-9713-427d-ba37-b0c64b3a88bc}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;range&quot;:100.0,&quot;function&quot;:1003,&quot;number of samples&quot;:1800.0,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;sample rate (hz)&quot;:18000.0}" DisplayName="NIDmmDCRmsVoltage" Id="6fbae8096d54481fbe6a034197e4d35f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIDmmDCRmsVoltage_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{b8630b2c-ea30-4049-a632-78f1c7eba5b9}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;range&quot;:10.0,&quot;function&quot;:1003,&quot;number of samples&quot;:1800.0,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;sample rate (hz)&quot;:18000.0}" DisplayName="NIDmmDCRmsVoltage" Id="6fbae8096d54481fbe6a034197e4d35f" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIDmmDCRmsVoltage_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="a4be6af3cf79479c9ecea1b5ff1e92a3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
