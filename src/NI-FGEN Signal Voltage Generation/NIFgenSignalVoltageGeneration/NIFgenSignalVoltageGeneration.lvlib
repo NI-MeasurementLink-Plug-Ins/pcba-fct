@@ -10,6 +10,12 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/measurementlink-labview-examples-2.0.0.1/NI-FGEN Standard Function/NIFgenStandardFunction/subVIs/Wait Until Generation Complete.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="WaveformType.ctl" Type="VI" URL="../WaveformType.ctl"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>

@@ -11,7 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Generate Voltage Signal.vi" Type="VI" URL="../NIFgenSignalVoltageGeneration/Generate Voltage Signal.vi"/>
 		<Item Name="NIFgenSignalVoltageGeneration.lvlib" Type="Library" URL="../NIFgenSignalVoltageGeneration/NIFgenSignalVoltageGeneration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -29,6 +28,9 @@
 				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
 				<Item Name="niFgen Output Enable.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Enable.vi"/>
 				<Item Name="niFgen Output Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Mode.ctl"/>
+				<Item Name="niFgen Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Reset.vi"/>
+				<Item Name="niFgen Set Sample Rate.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Set Sample Rate.vi"/>
+				<Item Name="niFgen Util Create Waveform Data.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Util Create Waveform Data.vi"/>
 				<Item Name="niFgen Waveform Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Waveform Type.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -78,14 +80,10 @@
 				<Item Name="MeasurementLink niFGEN.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink niFGEN/MeasurementLink niFGEN.lvlib"/>
 				<Item Name="MeasurementLink Session Management Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Session Management Client/MeasurementLink Session Management Client.lvlib"/>
 				<Item Name="MeasurementLink Session Management V1.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink Session Management V1/MeasurementLink Session Management V1.lvlib"/>
-				<Item Name="MeasurementLink TestStand Integration.lvlib" Type="Library" URL="/&lt;vilib&gt;/MeasurementLink/MeasurementLink TestStand Integration/MeasurementLink TestStand Integration.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
@@ -104,7 +102,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -114,17 +111,16 @@
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NIFgenStandardFunction.lvlib" Type="Library" URL="../../../../../Users/Administrator/Downloads/measurementlink-labview-examples-2.0.0.1/NI-FGEN Standard Function/NIFgenStandardFunction/NIFgenStandardFunction.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="NIFgenSignalVoltageGeneration" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{8AD4C3F3-022E-4DB2-8FDE-037E6B21486E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{E006466C-D7A9-40D4-A3FE-051D786B2A72}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8EA85D42-328F-4B1C-9A49-DBC1F187960B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{233575A1-3137-466D-8C25-AB8A9AA9082E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{AED789A4-AC36-4BA0-A908-3110E006ACE2}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{56E72FC4-79DD-41BB-B694-BFE08738DED0}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">NIFgenSignalVoltageGeneration</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -133,7 +129,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIFgenSignalVoltageGeneration.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{E9913FEA-ED73-4B7F-9E7B-9BEEA0CF2298}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A0C25D7E-A503-4040-A73C-0894BBA52759}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NIFgenSignalVoltageGeneration.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenSignalVoltageGeneration/NIFgenSignalVoltageGeneration.exe</Property>
@@ -142,7 +138,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenSignalVoltageGeneration/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4E145F1E-CD7B-4EB6-B4F4-D929FAEA72DC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{654F0779-0671-47A9-A3D1-5F710FEB26F5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIFgenSignalVoltageGeneration.lvlib/Get Measurement Details.vi</Property>
@@ -182,7 +178,7 @@
 				<Property Name="TgtF_internalName" Type="Str">NIFgenSignalVoltageGeneration</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 National Instruments</Property>
 				<Property Name="TgtF_productName" Type="Str">NIFgenSignalVoltageGeneration</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A4CF84C0-DE91-4FF2-A571-C5A4DC95EA74}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E6DA4A7B-52A7-48A6-8127-D8BEA75518C4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">NIFgenSignalVoltageGeneration.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
