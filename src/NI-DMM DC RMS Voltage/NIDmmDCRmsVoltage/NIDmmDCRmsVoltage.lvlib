@@ -13,6 +13,10 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="DC Voltage RMS Measurements.vi" Type="VI" URL="../SubVIs/DC Voltage RMS Measurements.vi"/>
 	</Item>
+	<Item Name="TestStand Code Modules" Type="Folder">
+		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
+		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
+	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Function.ctl" Type="VI" URL="../Typedefs/Function.ctl"/>
 	</Item>
