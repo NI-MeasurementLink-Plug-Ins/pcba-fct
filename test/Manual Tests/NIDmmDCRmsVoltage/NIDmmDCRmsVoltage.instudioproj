@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E7E26B7AF87132060D42A0D7805E70FA306F6B38B913D2638571C19265597B60D0FF4D833D0419D1608F4026CABD0F4D9A4BABA6CFF89DAAFBCABB122C9421DF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="995FC6606E328A5DB4C05E7A751328E4F190B28ED3807EAA3587C03999836FB5F1A47320ADB38D8AAB99211B5F40AD90D3AD9575CAC693AD643F74F36385E3A3" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -13,7 +13,7 @@
 		<NameScopingEnvoy Id="9cfe07816139402f9a4673363967b9ac" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<SourceFileReference Bindings="EnvoyManager" Id="a2511e3750e7445088bf9612e5b251c5" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDmmDCRmsVoltage.sfp" StoragePath="NIDmmDCRmsVoltage.sfp" />
-			<FileReference Id="62f44ac0494e4623bb6fd9e3681db558" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDmmDCRmsVoltage.pinmap" StoragePath="NIDmmDCRmsVoltage.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<FileReference Id="2384d386806a4856952b2f1977c00baf" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDmmDCRmsVoltage.pinmap" StoragePath="..\..\..\src\NI-DMM DC RMS Voltage\NIDmmDCRmsVoltage.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
