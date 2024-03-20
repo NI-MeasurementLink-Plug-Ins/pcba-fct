@@ -1,6 +1,6 @@
 ## NI-DMM DC RMS Voltage Measurement 
 
-This example peforms DC volatge RMS measurement using NI DMM.
+This example performs DC volatge RMS measurement using NI DMM.
 
 
 Select the waveform function and range.
@@ -27,10 +27,10 @@ Specify the sample rate and number of samples to acquire.
 
 ### Required Software
 
-- InstrumentStudio 2024Q1 or later
-- MeasurementLink 2024Q1 or later
-- LabVIEW 2024Q1 or later
-- TestStand 2023Q4 or later
+- InstrumentStudio 2024 Q1 or later
+- MeasurementLink 2024 Q1 or later
+- LabVIEW 2024 Q1 or later
+- TestStand 2023 Q4 or later
 
 ### Required Hardware
 
