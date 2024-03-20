@@ -6,8 +6,6 @@
 	<Pins>
 		<DUTPin name="Pin1" />
 		<DUTPin name="Pin2" />
-		<DUTPin name="Pin3" />
-		<DUTPin name="Pin4" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -16,7 +14,5 @@
 	<Connections>
 		<Connection pin="Pin1" siteNumber="0" instrument="SCOPE1" channel="0" />
 		<Connection pin="Pin2" siteNumber="0" instrument="SCOPE1" channel="1" />
-		<Connection pin="Pin3" siteNumber="0" instrument="SCOPE1" channel="2" />
-		<Connection pin="Pin4" siteNumber="0" instrument="SCOPE1" channel="3" />
 	</Connections>
 </PinMap>
