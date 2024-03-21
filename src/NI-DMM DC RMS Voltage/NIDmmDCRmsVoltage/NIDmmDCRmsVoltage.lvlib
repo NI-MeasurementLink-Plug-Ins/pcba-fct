@@ -10,12 +10,19 @@
 		</Item>
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
+	<Item Name="TestStand Code Modules" Type="Folder">
+		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
+		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Function.ctl" Type="VI" URL="../Typedefs/Function.ctl"/>
+	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
 	<Item Name="Measurement Configuration.ctl" Type="VI" URL="../Measurement Configuration.ctl"/>
 	<Item Name="Measurement Logic.vi" Type="VI" URL="../Measurement Logic.vi"/>
-	<Item Name="Measurement Results.ctl" Type="VI" URL="../Measurement Results.ctl"/>
+	<Item Name="Measurement Result.ctl" Type="VI" URL="../Measurement Result.ctl"/>
 	<Item Name="Measurement UI.vi" Type="VI" URL="../Measurement UI.vi"/>
 	<Item Name="Run Service.vi" Type="VI" URL="../Run Service.vi"/>
 </Library>
