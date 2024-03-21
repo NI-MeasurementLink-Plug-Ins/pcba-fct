@@ -24,6 +24,7 @@
 				<Item Name="niDMM Read Waveform (floating point array).vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Read Waveform (floating point array).vi"/>
 				<Item Name="niDMM Read Waveform (waveform data).vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Read Waveform (waveform data).vi"/>
 				<Item Name="niDMM Read Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Read Waveform.vi"/>
+				<Item Name="niDMM Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Reset.vi"/>
 				<Item Name="niDMM Waveform Function.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Waveform Function.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -176,7 +177,7 @@
 				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NIDmmDCRmsVoltage.lvlib/SubVIs</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
