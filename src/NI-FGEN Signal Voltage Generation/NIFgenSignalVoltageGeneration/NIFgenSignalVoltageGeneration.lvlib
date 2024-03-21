@@ -11,7 +11,7 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/measurementlink-labview-examples-2.0.0.1/NI-FGEN Standard Function/NIFgenStandardFunction/subVIs/Wait Until Generation Complete.vi"/>
+		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../SubVIs/Wait Until Generation Complete.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="WaveformType.ctl" Type="VI" URL="../WaveformType.ctl"/>
