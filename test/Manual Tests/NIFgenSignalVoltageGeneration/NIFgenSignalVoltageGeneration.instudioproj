@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F79469629E0DAE6BF8621E4EDFE6AFCD7A93711526B850A1F4E8EA63C74ABFF4303A9237852D398FC7A2E5A753764D616E6DAA860403A8795320FD3CD9484CE4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B83CF849993D475E85126D6E5E5C5114CC8B7BD84D46A3FF0FA4EA393EAD2173D5B566FFF4F692FA6E5B7957E11D50687FD35D8630D4B3FB65BC01E1298AA3AD" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -13,7 +13,7 @@
 		<NameScopingEnvoy Id="25fa164fa60d48f4bb3bd04d8e2edf9a" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<FileReference Id="e4ef6b6dee73472c9ef43bd21da95fb8" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIFgenSignalVoltageGen.pinmap" StoragePath="NIFgenSignalVoltageGen.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
-			<SourceFileReference Bindings="EnvoyManager" Id="6957c15dfd04ebbb9f5fedc361cfebf" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="6957c15dfd04ebbb9f5fedc361cfebf" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIFgenSignalVoltageGeneration.sfp" StoragePath="NIFgenSignalVoltageGeneration.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
