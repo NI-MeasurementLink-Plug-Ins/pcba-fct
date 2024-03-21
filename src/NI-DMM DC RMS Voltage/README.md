@@ -1,6 +1,6 @@
 ## NI-DMM DC RMS Voltage Measurement 
 
-This example performs DC volatge RMS measurement using NI DMM.
+This example performs DC voltage RMS measurement using NI DMM.
 
 
 Select the waveform function and range.
