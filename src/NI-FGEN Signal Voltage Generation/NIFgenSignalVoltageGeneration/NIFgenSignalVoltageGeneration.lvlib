@@ -13,6 +13,10 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../SubVIs/Wait Until Generation Complete.vi"/>
 	</Item>
+	<Item Name="TestStand Code Modules" Type="Folder">
+		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
+		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
+	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="WaveformType.ctl" Type="VI" URL="../WaveformType.ctl"/>
 	</Item>
