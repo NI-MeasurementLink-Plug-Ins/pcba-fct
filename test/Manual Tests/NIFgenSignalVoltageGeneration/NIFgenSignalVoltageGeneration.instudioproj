@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B83CF849993D475E85126D6E5E5C5114CC8B7BD84D46A3FF0FA4EA393EAD2173D5B566FFF4F692FA6E5B7957E11D50687FD35D8630D4B3FB65BC01E1298AA3AD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8511ADEC17E2CEE8BB08A4BB2313730E54C9174D43A789113F3CC44F68B9CB6DE3B270795DBEB2F8C7D749062E2FDD18185A6FD5006D37F6FAD2B86DA0855603" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -12,8 +12,8 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="25fa164fa60d48f4bb3bd04d8e2edf9a" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
-			<FileReference Id="e4ef6b6dee73472c9ef43bd21da95fb8" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIFgenSignalVoltageGen.pinmap" StoragePath="NIFgenSignalVoltageGen.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 			<SourceFileReference Bindings="EnvoyManager" Id="6957c15dfd04ebbb9f5fedc361cfebf" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIFgenSignalVoltageGeneration.sfp" StoragePath="NIFgenSignalVoltageGeneration.sfp" />
+			<FileReference Id="754ec81d67e74151b22f11bb74514ff7" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIFgenSignalVoltageGen.pinmap" StoragePath="..\..\..\src\NI-FGEN Signal Voltage Generation\NIFgenSignalVoltageGen.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />

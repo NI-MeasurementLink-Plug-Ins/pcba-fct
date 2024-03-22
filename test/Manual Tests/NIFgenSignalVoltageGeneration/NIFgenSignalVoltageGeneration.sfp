@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="9C3C7760F2732D1EEEB4C5A2279F3829FC5C6902E1C1BE1464DF922C83B7F9F497FFFE23CE1C86A92AE1A067A17495D8E452CD8CDD5BF86313D22FDDC15E86C1" Timestamp="1DA7BD2E0EC5954" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2A6E70338FB3CE6AF3161B6ECDA892410BF4438F21FBC1B214B768FF31BD2B25E92B6F70DF814E3432B468DB38921B95C08F4318D3BE04F9D77727EC8182D85D" Timestamp="1DA7C8C3396618F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49428" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="8fd6cdb353b74ba58992f823d08ec02d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a633c506c7a64e9b85701cb1dbbb4752" Name="NIFgenSignalVoltageGeneration.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="cb7155a11b9f43a899d6fe75ec0634f4" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{da824b03-07ab-4e32-becb-14c2e2c3bb97}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;generation time (s)&quot;:2.0,&quot;voltage offset (v)&quot;:0.0,&quot;sample rate (hz)&quot;:10000000.0,&quot;frequency (hz)&quot;:200000.0,&quot;amplitude (v)&quot;:1.0,&quot;waveform type&quot;:1}" DisplayName="NIFgenSignalVoltageGeneration" Id="260022bd548d47cfa4252fb27fc2e68d" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIFgenSignalVoltageGeneration_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{9bc9c6f5-986c-4e01-ad0e-40a2bb4f3ec9}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;generation time (s)&quot;:2.0,&quot;voltage offset (v)&quot;:0.0,&quot;sample rate (hz)&quot;:10000000.0,&quot;frequency (hz)&quot;:200000.0,&quot;amplitude (v)&quot;:1.0,&quot;waveform type&quot;:3}" DisplayName="NIFgenSignalVoltageGeneration" Id="260022bd548d47cfa4252fb27fc2e68d" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIFgenSignalVoltageGeneration_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="c5fb984279394d14abbb543e679383af" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
