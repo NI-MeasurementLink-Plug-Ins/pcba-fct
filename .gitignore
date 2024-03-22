@@ -17,6 +17,9 @@
 *.lvlps
 .cache/
 
+# Builds
+src/builds/
+
 # Python
 # Byte-compiled / optimized / DLL files
 __pycache__/
