@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3DE4CE1E489B42D2D2B00D097F7681434B95EA6BD7206E99C8A6D2EA127343D4C053045EED0BAD7243558CB5D2002F40EC2FF06F9673C82E44DE4803B9215FA5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3C4573015485EDE8F116E88F2FFA86C5DCC8A2FD440F818967554D5C2915C502ADD708F323D06AB0D71F2EDE40A196C5E3B9DECE5D7414A890A4C98BA3CAB93E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="24.0.0.49505" Name="InstrumentStudio" PersistenceVersion="22.1.0.0" Version="24.0.0.49505" />
 	</SourceModelFeatureSet>
@@ -12,6 +13,7 @@
 		<NameScopingEnvoy Id="f472d9bf6e084ac4983312827c86d7e9" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<SourceFileReference Bindings="EnvoyManager" Id="fa83e90668c54635940e58377ab8bafc" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIScopeTimeDomain.sfp" StoragePath="NIScopeTimeDomain.sfp" />
+			<FileReference Id="4e9ae1ff7b7d4151a528c2edb2253328" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIScopeTimeDomain.pinmap" StoragePath="..\..\..\src\NI-SCOPE Time Domain\NIScopeTimeDomain.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
