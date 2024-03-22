@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="083D24D3832945DD3EA5B563CC340D0659E8C2CEA6F5F77770C7A6E0D0805E34046D61491D2D22633B7C84FEE3642F5B47CF6B76F554B6BBFAA30778BBE3AC19" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5A3B7EEFEAEF2393975CBAA5D3B1F9F05CDB214051550BE79EC5FA376369E252431ABBBC83CEB6A73CDF0DF8519503C4837CF0D040CC4A9287DF794D33115DF9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -12,8 +12,8 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9cfe07816139402f9a4673363967b9ac" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
-			<SourceFileReference Bindings="EnvoyManager" Id="282e10110acd4c7eb64f8857217190c2" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDmmDcRmsMeasurement.sfp" StoragePath="NIDmmDcRmsMeasurement.sfp" />
-			<FileReference Id="9ddbda7629354c88aabb6b6b219f9997" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDmmDcRmsMeasurement.pinmap" StoragePath="..\..\..\src\NI-DMM DC RMS\NIDmmDcRmsMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<FileReference Id="f4b325b647564fa6a00a32bed74d028d" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDmmDCRmsMeasurement.pinmap" StoragePath="..\..\..\src\NIDmmDCRmsMeasurement\NIDmmDCRmsMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="10f6b617840541b98083cbcbebec153a" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDmmDCRmsMeasurement.sfp" StoragePath="NIDmmDCRmsMeasurement.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />

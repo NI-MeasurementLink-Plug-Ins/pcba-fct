@@ -11,7 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NIDmmDcRmsMeasurement.lvlib" Type="Library" URL="../NIDmmDcRmsMeasurement/NIDmmDcRmsMeasurement.lvlib"/>
+		<Item Name="NIDmmDCRmsMeasurement.lvlib" Type="Library" URL="../NIDmmDCRmsMeasurement/NIDmmDCRmsMeasurement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDMM Attach gRPC Session.vi" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM Attach gRPC Session.vi"/>
