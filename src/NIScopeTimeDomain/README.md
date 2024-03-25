@@ -9,9 +9,8 @@ This example performs time domain measurement using NI SCOPE.
 - Pin-aware, supporting one session and one pin.
   - Uses the same selected measurement function and range for all selected pin/site combinations.
 - Includes InstrumentStudio project files.
-- Includes a TestStand sequence showing how to configure the pin map, register.
-  instrument sessions with the session management service, and run a measurement.
-  - For the sake of simplicity, the TestStand sequence handles pin map and session registration and unregistration in the `Setup` and `Cleanup` sections of the main sequence. For **Test UUTs** and batch process model use cases, these steps should be moved to the `ProcessSetup` and `ProcessCleanup` callbacks.
+- Includes a TestStand sequence showing how to configure the pin map, register instrument sessions with the session management service, and run a measurement.
+  - For the sake of simplicity, the TestStand sequence handles pin map and session registration and unregistration in the `Setup` and `Cleanup` sections of the main sequence. For **Sequential** and **Batch** process model use cases, these steps should be moved to the `ProcessSetup` and `ProcessCleanup` callbacks.
 - Uses the NI gRPC Device Server to allow sharing instrument sessions with other measurement services when running measurements from TestStand.
 
 ### Required Driver Software
