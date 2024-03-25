@@ -129,6 +129,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIFgenSignalVoltageGeneration.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{ECAC6F10-3283-48E2-9D51-0ED8D799CC6D}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">NIFgenSignalVoltageGeneration.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenSignalVoltageGeneration/NIFgenSignalVoltageGeneration.exe</Property>
@@ -137,7 +138,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIFgenSignalVoltageGeneration/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1966B154-3FCE-48F2-AE5B-D8EC659AFBF8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BA76760E-3891-460F-9D9C-3C3B5723094E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIFgenSignalVoltageGeneration.lvlib/Get Measurement Details.vi</Property>
