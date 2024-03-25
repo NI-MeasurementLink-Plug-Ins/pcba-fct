@@ -11,10 +11,7 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../../../../../../Users/Administrator/Desktop/NI-FGEN Signal Voltage Generation/NI-FGEN Signal Voltage Generation/NIFgenSignalVoltageGeneration/SubVIs/Wait Until Generation Complete.vi"/>
-	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Waveform Type.ctl" Type="VI" URL="../Typedefs/Waveform Type.ctl"/>
+		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../../../../../../Users/Administrator/Desktop/Wait Until Generation Complete.vi"/>
 	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
