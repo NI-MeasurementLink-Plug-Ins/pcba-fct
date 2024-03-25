@@ -115,6 +115,76 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="NIDmmDCRmsMeasurement" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7C980255-D621-48C8-BED7-98FA21BEADA5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{80BC14F9-252F-4ADF-830E-CBA983E3FB05}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F3E79731-918F-4FC3-9BF3-A2F3F2D0754E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Advanced/Build Assets/Post-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{BA728CC7-8ECB-45B6-B4BA-A0D3B8E29F8A}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">NIDmmDCRmsMeasurement.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement/NIDmmDCRmsMeasurement.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/NIDmmDCRmsMeasurement/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9E05867-AE9A-4B6F-B57B-F4215831B8EE}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Run Service.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get Measurement Details.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get Type Specializations.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Get UI Details.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Configuration.ctl</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Logic.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/NIDmmDCRmsMeasurement.lvlib/Measurement Results.ctl</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="TgtF_internalName" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">NIDmmDCRmsMeasurement</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{358C0557-2F0A-433C-959B-D4E87CD2E02A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">NIDmmDCRmsMeasurement.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

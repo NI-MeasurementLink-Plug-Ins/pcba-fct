@@ -14,9 +14,6 @@
 		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
 		<Item Name="Unregister and Close Sessions.vi" Type="VI" URL="../TestStand Code Modules/Unregister and Close Sessions.vi"/>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Function.ctl" Type="VI" URL="../Typedefs/Function.ctl"/>
-	</Item>
 	<Item Name="Get Measurement Details.vi" Type="VI" URL="../Get Measurement Details.vi"/>
 	<Item Name="Get Type Specializations.vi" Type="VI" URL="../Get Type Specializations.vi"/>
 	<Item Name="Get UI Details.vi" Type="VI" URL="../Get UI Details.vi"/>
