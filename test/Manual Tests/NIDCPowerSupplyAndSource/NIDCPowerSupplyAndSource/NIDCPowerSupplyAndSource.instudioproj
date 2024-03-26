@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="25963ACE03B0D52DB3243602B5FBCEBF0D69A8F7C4110517220B7E0843692A4F9E1AC283D37DCE6EE0616BECBE6F7F5AA187FD4EB4299BA0E73A202A3096B474" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="285353E74DA7A68E227F9E066CD2C994B709CC82F9492BB6FF53B3A7905224772B7AC9561C6E1763315DD9509F1C5539DD46C0059A8673A908EB3D77A9B2B8B5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -12,8 +12,8 @@
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="eb84a3d7a84043398d55f8626aac7161" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
-			<SourceFileReference Bindings="EnvoyManager" Id="4e9657a2e31a422f9cefc4ead0aba430" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="Instrument.sfp" StoragePath="Instrument.sfp" />
 			<FileReference Id="317b0bca605e482fa44bce7c77ceb361" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="PinMap.pinmap" StoragePath="PinMap.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
+			<SourceFileReference Bindings="EnvoyManager" Id="b9e76297f9784a8ab49f722d9c340731" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDCPowerSupplyAndSource.sfp" StoragePath="NIDCPowerSupplyAndSource.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
