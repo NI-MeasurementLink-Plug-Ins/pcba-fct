@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="541CB7EBA0B586C749D188A2983ED46A6EC1633E2AAC07DA26925A31BB45E5C4CC27ABC2A9E3CD2492E523D221AB657B1687D38A8197DA23ACAAAD8E66F03576" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F6C21485CEBC38773DD912C56075C2E353B284BBA244A882CB402800F287C5A62DCDF748978A05851CB0E9430298F77F2A9809D0435F9AB1243D0F11077A3A61" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="Pin Map" Name="http://www.ni.com/InstrumentFramework/PinMap" OldestCompatibleVersion="21.3.0.0" Version="21.3.0.0" />
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49505" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -13,7 +13,7 @@
 		<NameScopingEnvoy Id="9cfe07816139402f9a4673363967b9ac" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
 			<DefaultTarget />
 			<FileReference Id="f4b325b647564fa6a00a32bed74d028d" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/PinMap}PinMapDefinition" Name="NIDmmDCRmsMeasurement.pinmap" StoragePath="..\..\..\src\NIDmmDCRmsMeasurement\NIDmmDCRmsMeasurement.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/InstrumentFramework/PinMap" />
-			<SourceFileReference Bindings="EnvoyManager" Id="214c3392d35f4bdea8c6e05ca936f778" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDmmDCRmsMeasurement.sfp" StoragePath="NIDmmDCRmsMeasurement.sfp" />
+			<SourceFileReference Bindings="EnvoyManager" Id="805b26242a604c40b546cfa4478345e3" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.UnifiedTask" Name="NIDmmDCRmsMeasurement.sfp" StoragePath="NIDmmDCRmsMeasurement.sfp" />
 		</NameScopingEnvoy>
 	</Project>
 	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
