@@ -11,7 +11,7 @@
 		<Item Name="Measurement Plugin.lvclass" Type="LVClass" URL="../Advanced/Measurement Plugin.lvclass"/>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
-		<Item Name="Wait Until Generation Complete.vi" Type="VI" URL="../../../../../../Users/Administrator/Desktop/Wait Until Generation Complete.vi"/>
+		<Item Name="Wait For Generation Complete.vi" Type="VI" URL="../subVIs/Wait For Generation Complete.vi"/>
 	</Item>
 	<Item Name="TestStand Code Modules" Type="Folder">
 		<Item Name="Initialize and Register Sessions.vi" Type="VI" URL="../TestStand Code Modules/Initialize and Register Sessions.vi"/>
