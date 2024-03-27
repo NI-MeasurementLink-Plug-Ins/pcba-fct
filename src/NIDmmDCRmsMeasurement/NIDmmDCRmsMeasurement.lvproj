@@ -107,6 +107,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Function.ctl" Type="VI" URL="../NIDmmDCRmsMeasurement/Typedefs/Function.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
