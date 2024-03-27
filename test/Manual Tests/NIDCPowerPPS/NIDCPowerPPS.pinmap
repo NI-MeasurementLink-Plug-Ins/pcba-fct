@@ -4,9 +4,13 @@
 		<NIDCPowerInstrument name="DCPower1" numberOfChannels="1">
 			<ChannelGroup name="CommonDCPowerChannelGroup" channels="0" />
 		</NIDCPowerInstrument>
+		<NIDCPowerInstrument name="DCPower2" numberOfChannels="1">
+			<ChannelGroup name="CommonDCPowerChannelGroup" channels="0" />
+		</NIDCPowerInstrument>
 	</Instruments>
 	<Pins>
 		<DUTPin name="Pin1" />
+		<DUTPin name="Pin2" />
 	</Pins>
 	<PinGroups></PinGroups>
 	<Sites>
@@ -14,5 +18,6 @@
 	</Sites>
 	<Connections>
 		<Connection pin="Pin1" siteNumber="0" instrument="DCPower1" channel="0" />
+		<Connection pin="Pin2" siteNumber="0" instrument="DCPower2" channel="0" />
 	</Connections>
 </PinMap>
