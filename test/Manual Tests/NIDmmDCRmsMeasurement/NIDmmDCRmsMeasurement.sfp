@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="61F3A75F53D86DC69DC2E9E3ED69569A4EDFD09ACE1667AF64BA512FAFF3087EC03A3C9EA2A260ADC6D854291C9F4A78A603A56202EEE4219C8B83D6F4FF8AB9" Timestamp="1DA8024046162AF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="93BDB983163FBC0B450776823EA3DD2FD79EBF0298F32E67B03A769CBC724FB5ABABA4A901B917F47E93BFA137B9EAC733C98D506E7E0DE8F8372C6A1AF3A6D6" Timestamp="1DA80B6FFFBF68B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.11.0.49428" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.8.1.49152" />
 		<ParsableNamespace AssemblyFileVersion="24.0.0.49505" FeatureSetName="UnifiedTask" Name="http://www.ni.com/InstrumentFramework/Document/SourceModel/UnifiedSoftFrontPanel" Version="1.0.0.0" />
@@ -12,7 +12,7 @@
 		<EnvoyManagerRootEnvoy Id="362a565209d445769d86eb42ef6dcd95" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="451ca297951f45378a1d18a6b78ec424" Name="NIDmmDCRmsMeasurement.sfp" NameTracksFileName="True" />
 		<EmbeddedDefinitionReference Id="9aa1f60af8134d13aa5440950ec06320" ModelDefinitionType="{http://www.ni.com/InstrumentFramework/ScreenDocument}Screen" Name="{http\://www.ni.com/InstrumentFramework/ScreenDocument}Screen.task">
-			<Screen ClientId="{4112291c-b6af-4e7d-996d-357a968b18ea}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;range&quot;:10.0,&quot;function&quot;:1003,&quot;number of samples&quot;:1000,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;sample rate (hz)&quot;:1800000.0}" DisplayName="NI-Dmm DC RMS Measurement" Id="a546b970c7804acc887ec1931b5c19c5" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIDmmDCRmsMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
+			<Screen ClientId="{09c4d65a-c5b3-4b2f-bf8f-12b17164f8fa}" ConfigurationParameters="{&quot;@type&quot;:&quot;type.googleapis.com/ConfigurationParameter&quot;,&quot;range&quot;:10.0,&quot;function&quot;:1003,&quot;number of samples&quot;:1000,&quot;pin name&quot;:&quot;Pin1&quot;,&quot;sample rate (hz)&quot;:1800000.0}" DisplayName="NI-Dmm DC RMS Measurement" Id="a546b970c7804acc887ec1931b5c19c5" PanelPresentation="ConfigurationWithVisualization" ServiceClass="NIDmmDCRmsMeasurement_LabVIEW" xmlns="http://www.ni.com/InstrumentFramework/ScreenDocument">
 				<ScreenSurface BackgroundColor="[SMSolidColorBrush]#ffffffff" Height="[float]400" Id="786b02eca86c457a8ff0946fbe74e582" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]800" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core" />
 			</Screen>
 		</EmbeddedDefinitionReference>
